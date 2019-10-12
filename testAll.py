@@ -55,6 +55,7 @@ class TestBlog(TestPyOrgBase):
         self.blog.click(BlogPageLocators.PY380RC1)
         self.blog.navigate_browser_back()
         self.blog.assert_elem_text(BlogPageLocators.PY380RC1, "Python 3.8.0rc1 is now available")
+        # farklı bir başlığı kontrol etmek istedim
 
 
 if __name__ == '__main__':

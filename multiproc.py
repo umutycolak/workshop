@@ -13,7 +13,7 @@ def run_test(test_to_run):
 
 tests = [TestHome("test_TC001_py3_python_news_button"),
          TestBlog("test_TC002_verify_url"),
-         TestBlog("test_TC003_verify_latest_news")]
+         TestBlog("test_TC003_verify_PY380RC1_name")]
 
 if __name__ == "__main__":
     with Pool(3) as p:
